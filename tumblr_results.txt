@@ -1,0 +1,630 @@
+============================= test session starts ==============================
+platform linux -- Python 3.6.7, pytest-4.5.0, py-1.8.0, pluggy-0.12.0
+rootdir: /home/sgraff/api_recipes-master/tests/python
+collected 0 items / 1 errors
+TEXT: 
+
+==================================== ERRORS ====================================
+________________________ ERROR collecting test session _________________________
+../../../.local/lib/python3.6/site-packages/py/_error.py:66: in checked_call
+    return func(*args, **kwargs)
+E   PermissionError: [Errno 13] Permission denied: '/home/sgraff/api_recipes-master/tests/python/test'
+
+During handling of the above exception, another exception occurred:
+../../../.local/lib/python3.6/site-packages/py/_path/common.py:377: in visit
+    for x in Visitor(fil, rec, ignore, bf, sort).gen(self):
+../../../.local/lib/python3.6/site-packages/py/_path/common.py:429: in gen
+    for p in self.gen(subdir):
+../../../.local/lib/python3.6/site-packages/py/_path/common.py:414: in gen
+    entries = path.listdir()
+../../../.local/lib/python3.6/site-packages/py/_path/local.py:392: in listdir
+    names = py.error.checked_call(os.listdir, self.strpath)
+../../../.local/lib/python3.6/site-packages/py/_error.py:86: in checked_call
+    raise cls("%s%r" % (func.__name__, args))
+E   py.error.EACCES: [Permission denied]: listdir('/home/sgraff/api_recipes-master/tests/python/test',)
+!!!!!!!!!!!!!!!!!!! Interrupted: 1 errors during collection !!!!!!!!!!!!!!!!!!!!
+=========================== 1 error in 2.06 seconds ============================
+============================= test session starts ==============================
+platform linux -- Python 3.6.7, pytest-4.5.0, py-1.8.0, pluggy-0.12.0
+rootdir: /home/sgraff/api_recipes-master/tests/python
+collected 0 items / 1 errors
+
+==================================== ERRORS ====================================
+_________________________ ERROR collecting test_api.py _________________________
+test_api.py:73: in <module>
+    fout.writelines(score)
+E   TypeError: 'NoneType' object is not iterable
+------------------------------- Captured stdout --------------------------------
+START
+content_handle: 10d3ddb46dc34d5995239ae134f09949
+Words > six letters: 0.16157205
+Numbers: 0.0
+Articles: 0.06550218
+Prepositions: 0.1091703
+Positive Feelings: 0.01746725
+Anxiety: 0.0043668123
+Swear words: 0.0
+Feeling: 0.013100437
+Social words: 0.05676856
+Pronouns: 0.13100436
+1st person singular: 0.048034936
+1st person plural: 0.0
+3rd person singular: 0.0
+3rd person plural: 0.01746725
+Home: 0.008733625
+END
+!!!!!!!!!!!!!!!!!!! Interrupted: 1 errors during collection !!!!!!!!!!!!!!!!!!!!
+=========================== 1 error in 2.94 seconds ============================
+============================= test session starts ==============================
+platform linux -- Python 3.6.7, pytest-4.5.0, py-1.8.0, pluggy-0.12.0
+rootdir: /home/sgraff/api_recipes-master/tests/python
+collected 0 items / 1 errors
+
+==================================== ERRORS ====================================
+_________________________ ERROR collecting test_api.py _________________________
+test_api.py:73: in <module>
+    fout.writelines(score)
+E   TypeError: 'NoneType' object is not iterable
+------------------------------- Captured stdout --------------------------------
+START
+content_handle: 3046ccfcaf0f4b26b9b3d472498a19c2
+Words > six letters: 0.1299639
+Numbers: 0.018050542
+Articles: 0.090252705
+Prepositions: 0.15523465
+Positive Feelings: 0.028880866
+Anxiety: 0.0036101083
+Swear words: 0.0
+Feeling: 0.0072202166
+Social words: 0.090252705
+Pronouns: 0.13718411
+1st person singular: 0.06137184
+1st person plural: 0.025270758
+3rd person singular: 0.0
+3rd person plural: 0.028880866
+Home: 0.0036101083
+END
+!!!!!!!!!!!!!!!!!!! Interrupted: 1 errors during collection !!!!!!!!!!!!!!!!!!!!
+=========================== 1 error in 3.18 seconds ============================
+============================= test session starts ==============================
+platform linux -- Python 3.6.7, pytest-4.5.0, py-1.8.0, pluggy-0.12.0
+rootdir: /home/sgraff/api_recipes-master/tests/python
+collected 0 items / 1 errors
+
+==================================== ERRORS ====================================
+_________________________ ERROR collecting test_api.py _________________________
+test_api.py:73: in <module>
+    fout.writelines(score)
+E   TypeError: 'NoneType' object is not iterable
+------------------------------- Captured stdout --------------------------------
+START
+content_handle: 90db14f8932a4b8aa91565d436102f0b
+Words > six letters: 0.13740458
+Numbers: 0.011995638
+Articles: 0.044711012
+Prepositions: 0.13195202
+Positive Feelings: 0.03925845
+Anxiety: 0.0032715376
+Swear words: 0.002181025
+Feeling: 0.0032715376
+Social words: 0.12104689
+Pronouns: 0.21810251
+1st person singular: 0.11123228
+1st person plural: 0.011995638
+3rd person singular: 0.03380589
+3rd person plural: 0.002181025
+Home: 0.00436205
+END
+!!!!!!!!!!!!!!!!!!! Interrupted: 1 errors during collection !!!!!!!!!!!!!!!!!!!!
+=========================== 1 error in 2.98 seconds ============================
+============================= test session starts ==============================
+platform linux -- Python 3.6.7, pytest-4.5.0, py-1.8.0, pluggy-0.12.0
+rootdir: /home/sgraff/api_recipes-master/tests/python
+collected 0 items / 1 errors
+
+==================================== ERRORS ====================================
+_________________________ ERROR collecting test_api.py _________________________
+test_api.py:73: in <module>
+    fout.writelines(score)
+E   TypeError: 'NoneType' object is not iterable
+------------------------------- Captured stdout --------------------------------
+START
+content_handle: 18cf7fd3bbb943249456398d392dfc98
+Words > six letters: 0.203125
+Numbers: 0.06875
+Articles: 0.0625
+Prepositions: 0.078125
+Positive Feelings: 0.028125
+Anxiety: 0.0
+Swear words: 0.0
+Feeling: 0.0125
+Social words: 0.14375
+Pronouns: 0.109375
+1st person singular: 0.009375
+1st person plural: 0.0
+3rd person singular: 0.05
+3rd person plural: 0.009375
+Home: 0.00625
+END
+!!!!!!!!!!!!!!!!!!! Interrupted: 1 errors during collection !!!!!!!!!!!!!!!!!!!!
+=========================== 1 error in 3.54 seconds ============================
+============================= test session starts ==============================
+platform linux -- Python 3.6.7, pytest-4.5.0, py-1.8.0, pluggy-0.12.0
+rootdir: /home/sgraff/api_recipes-master/tests/python
+collected 0 items / 1 errors
+
+==================================== ERRORS ====================================
+_________________________ ERROR collecting test_api.py _________________________
+test_api.py:73: in <module>
+    fout.writelines(score)
+E   TypeError: 'NoneType' object is not iterable
+------------------------------- Captured stdout --------------------------------
+START
+content_handle: 471eb408fed748da9b5b1a76b663afff
+Words > six letters: 0.082417585
+Numbers: 0.0054945056
+Articles: 0.071428575
+Prepositions: 0.07692308
+Positive Feelings: 0.04945055
+Anxiety: 0.0
+Swear words: 0.0054945056
+Feeling: 0.0054945056
+Social words: 0.17582418
+Pronouns: 0.16483517
+1st person singular: 0.03846154
+1st person plural: 0.0
+3rd person singular: 0.06043956
+3rd person plural: 0.0
+Home: 0.0
+END
+!!!!!!!!!!!!!!!!!!! Interrupted: 1 errors during collection !!!!!!!!!!!!!!!!!!!!
+=========================== 1 error in 2.83 seconds ============================
+============================= test session starts ==============================
+platform linux -- Python 3.6.7, pytest-4.5.0, py-1.8.0, pluggy-0.12.0
+rootdir: /home/sgraff/api_recipes-master/tests/python
+collected 0 items / 1 errors
+
+==================================== ERRORS ====================================
+_________________________ ERROR collecting test_api.py _________________________
+test_api.py:73: in <module>
+    fout.writelines(score)
+E   TypeError: 'NoneType' object is not iterable
+------------------------------- Captured stdout --------------------------------
+START
+content_handle: 3d34202f25a44071b235e8dc03c92ced
+Words > six letters: 0.10772834
+Numbers: 0.037470724
+Articles: 0.037470724
+Prepositions: 0.06791569
+Positive Feelings: 0.028103044
+Anxiety: 0.007025761
+Swear words: 0.0023419203
+Feeling: 0.0046838406
+Social words: 0.12880562
+Pronouns: 0.13348946
+1st person singular: 0.016393442
+1st person plural: 0.0
+3rd person singular: 0.08196721
+3rd person plural: 0.0
+Home: 0.0
+END
+!!!!!!!!!!!!!!!!!!! Interrupted: 1 errors during collection !!!!!!!!!!!!!!!!!!!!
+=========================== 1 error in 2.97 seconds ============================
+============================= test session starts ==============================
+platform linux -- Python 3.6.7, pytest-4.5.0, py-1.8.0, pluggy-0.12.0
+rootdir: /home/sgraff/api_recipes-master/tests/python
+collected 0 items / 1 errors
+
+==================================== ERRORS ====================================
+_________________________ ERROR collecting test_api.py _________________________
+test_api.py:73: in <module>
+    fout.writelines(score)
+E   TypeError: 'NoneType' object is not iterable
+------------------------------- Captured stdout --------------------------------
+START
+content_handle: 2e9bf935da504b34b97b7c8810ff0650
+Words > six letters: 0.12182741
+Numbers: 0.04822335
+Articles: 0.020304568
+Prepositions: 0.08121827
+Positive Feelings: 0.017766498
+Anxiety: 0.0
+Swear words: 0.002538071
+Feeling: 0.010152284
+Social words: 0.10659899
+Pronouns: 0.1142132
+1st person singular: 0.015228426
+1st person plural: 0.0
+3rd person singular: 0.063451774
+3rd person plural: 0.0
+Home: 0.002538071
+END
+!!!!!!!!!!!!!!!!!!! Interrupted: 1 errors during collection !!!!!!!!!!!!!!!!!!!!
+=========================== 1 error in 2.79 seconds ============================
+============================= test session starts ==============================
+platform linux -- Python 3.6.7, pytest-4.5.0, py-1.8.0, pluggy-0.12.0
+rootdir: /home/sgraff/api_recipes-master/tests/python
+collected 0 items / 1 errors
+
+==================================== ERRORS ====================================
+_________________________ ERROR collecting test_api.py _________________________
+test_api.py:73: in <module>
+    fout.writelines(score)
+E   TypeError: 'NoneType' object is not iterable
+------------------------------- Captured stdout --------------------------------
+START
+content_handle: 5772f683650b4503b3ecc19fff892324
+Words > six letters: 0.11002445
+Numbers: 0.03178484
+Articles: 0.039119806
+Prepositions: 0.07090464
+Positive Feelings: 0.017114915
+Anxiety: 0.002444988
+Swear words: 0.0
+Feeling: 0.004889976
+Social words: 0.14180928
+Pronouns: 0.15158924
+1st person singular: 0.03178484
+1st person plural: 0.0
+3rd person singular: 0.06601467
+3rd person plural: 0.0
+Home: 0.0
+END
+!!!!!!!!!!!!!!!!!!! Interrupted: 1 errors during collection !!!!!!!!!!!!!!!!!!!!
+=========================== 1 error in 2.74 seconds ============================
+============================= test session starts ==============================
+platform linux -- Python 3.6.7, pytest-4.5.0, py-1.8.0, pluggy-0.12.0
+rootdir: /home/sgraff/api_recipes-master/tests/python
+collected 0 items / 1 errors
+
+==================================== ERRORS ====================================
+_________________________ ERROR collecting test_api.py _________________________
+test_api.py:73: in <module>
+    fout.writelines(score)
+E   TypeError: 'NoneType' object is not iterable
+------------------------------- Captured stdout --------------------------------
+START
+content_handle: 0f53dbb3aeec43f09ad74014959d6429
+Words > six letters: 0.12922466
+Numbers: 0.02584493
+Articles: 0.031809144
+Prepositions: 0.10735586
+Positive Feelings: 0.041749503
+Anxiety: 0.0019880715
+Swear words: 0.0019880715
+Feeling: 0.02385686
+Social words: 0.1530815
+Pronouns: 0.2027833
+1st person singular: 0.019880716
+1st person plural: 0.0019880715
+3rd person singular: 0.1252485
+3rd person plural: 0.0019880715
+Home: 0.0
+END
+!!!!!!!!!!!!!!!!!!! Interrupted: 1 errors during collection !!!!!!!!!!!!!!!!!!!!
+=========================== 1 error in 2.80 seconds ============================
+============================= test session starts ==============================
+platform linux -- Python 3.6.7, pytest-4.5.0, py-1.8.0, pluggy-0.12.0
+rootdir: /home/sgraff/api_recipes-master/tests/python
+collected 0 items / 1 errors
+
+==================================== ERRORS ====================================
+_________________________ ERROR collecting test_api.py _________________________
+test_api.py:73: in <module>
+    fout.writelines(score)
+E   TypeError: 'NoneType' object is not iterable
+------------------------------- Captured stdout --------------------------------
+START
+content_handle: aab7c12cc8f6457793b09e51ac40517e
+Words > six letters: 0.119140625
+Numbers: 0.017578125
+Articles: 0.04296875
+Prepositions: 0.13476562
+Positive Feelings: 0.056640625
+Anxiety: 0.0
+Swear words: 0.0
+Feeling: 0.013671875
+Social words: 0.16015625
+Pronouns: 0.16992188
+1st person singular: 0.001953125
+1st person plural: 0.005859375
+3rd person singular: 0.111328125
+3rd person plural: 0.01171875
+Home: 0.0078125
+END
+!!!!!!!!!!!!!!!!!!! Interrupted: 1 errors during collection !!!!!!!!!!!!!!!!!!!!
+=========================== 1 error in 3.05 seconds ============================
+============================= test session starts ==============================
+platform linux -- Python 3.6.7, pytest-4.5.0, py-1.8.0, pluggy-0.12.0
+rootdir: /home/sgraff/api_recipes-master/tests/python
+collected 0 items / 1 errors
+
+==================================== ERRORS ====================================
+_________________________ ERROR collecting test_api.py _________________________
+test_api.py:73: in <module>
+    fout.writelines(score)
+E   TypeError: 'NoneType' object is not iterable
+------------------------------- Captured stdout --------------------------------
+START
+content_handle: 910fc23ca4b54a9384c68a039436e800
+Words > six letters: 0.15808824
+Numbers: 0.014705882
+Articles: 0.036764707
+Prepositions: 0.113970585
+Positive Feelings: 0.036764707
+Anxiety: 0.0036764706
+Swear words: 0.0
+Feeling: 0.018382354
+Social words: 0.15441176
+Pronouns: 0.16544117
+1st person singular: 0.011029412
+1st person plural: 0.007352941
+3rd person singular: 0.0992647
+3rd person plural: 0.018382354
+Home: 0.011029412
+END
+!!!!!!!!!!!!!!!!!!! Interrupted: 1 errors during collection !!!!!!!!!!!!!!!!!!!!
+=========================== 1 error in 6.31 seconds ============================
+============================= test session starts ==============================
+platform linux -- Python 3.6.7, pytest-4.5.0, py-1.8.0, pluggy-0.12.0
+rootdir: /home/sgraff/api_recipes-master/tests/python
+collected 0 items / 1 errors
+
+==================================== ERRORS ====================================
+_________________________ ERROR collecting test_api.py _________________________
+test_api.py:73: in <module>
+    fout.writelines(score)
+E   TypeError: 'NoneType' object is not iterable
+------------------------------- Captured stdout --------------------------------
+START
+content_handle: 3e7762bb98c04e6c99763069e40fcbe1
+Words > six letters: 0.15163934
+Numbers: 0.008196721
+Articles: 0.06147541
+Prepositions: 0.1352459
+Positive Feelings: 0.020491803
+Anxiety: 0.012295082
+Swear words: 0.0
+Feeling: 0.0
+Social words: 0.12704918
+Pronouns: 0.16803278
+1st person singular: 0.008196721
+1st person plural: 0.0
+3rd person singular: 0.086065575
+3rd person plural: 0.0040983604
+Home: 0.0
+END
+!!!!!!!!!!!!!!!!!!! Interrupted: 1 errors during collection !!!!!!!!!!!!!!!!!!!!
+=========================== 1 error in 3.41 seconds ============================
+============================= test session starts ==============================
+platform linux -- Python 3.6.7, pytest-4.5.0, py-1.8.0, pluggy-0.12.0
+rootdir: /home/sgraff/api_recipes-master/tests/python
+collected 0 items / 1 errors
+
+==================================== ERRORS ====================================
+_________________________ ERROR collecting test_api.py _________________________
+test_api.py:71: in <module>
+    score = test_score_content("https://api-v3.receptiviti.com/","5cd07a46e3de7d040e0ec6ca","FvVU8Rs2qQBlQFyawDXk0nWXNChxUdPLCqDCZ42FEOM")
+test_api.py:34: in test_score_content
+    expect(response.status_code).to(equal(200))
+E   AssertionError: 
+E   expected: 400 to equal 200
+!!!!!!!!!!!!!!!!!!! Interrupted: 1 errors during collection !!!!!!!!!!!!!!!!!!!!
+=========================== 1 error in 3.31 seconds ============================
+============================= test session starts ==============================
+platform linux -- Python 3.6.7, pytest-4.5.0, py-1.8.0, pluggy-0.12.0
+rootdir: /home/sgraff/api_recipes-master/tests/python
+collected 0 items / 1 errors
+
+==================================== ERRORS ====================================
+_________________________ ERROR collecting test_api.py _________________________
+test_api.py:73: in <module>
+    fout.writelines(score)
+E   TypeError: 'NoneType' object is not iterable
+------------------------------- Captured stdout --------------------------------
+START
+content_handle: 430d7aa4440b45c784b16e14ac3082a7
+Words > six letters: 0.14193548
+Numbers: 0.0
+Articles: 0.041935485
+Prepositions: 0.13225806
+Positive Feelings: 0.048387095
+Anxiety: 0.009677419
+Swear words: 0.0
+Feeling: 0.0032258064
+Social words: 0.061290324
+Pronouns: 0.13225806
+1st person singular: 0.074193545
+1st person plural: 0.0
+3rd person singular: 0.0
+3rd person plural: 0.0
+Home: 0.0032258064
+END
+!!!!!!!!!!!!!!!!!!! Interrupted: 1 errors during collection !!!!!!!!!!!!!!!!!!!!
+=========================== 1 error in 3.23 seconds ============================
+============================= test session starts ==============================
+platform linux -- Python 3.6.7, pytest-4.5.0, py-1.8.0, pluggy-0.12.0
+rootdir: /home/sgraff/api_recipes-master/tests/python
+collected 0 items / 1 errors
+
+==================================== ERRORS ====================================
+_________________________ ERROR collecting test_api.py _________________________
+test_api.py:73: in <module>
+    fout.writelines(score)
+E   TypeError: 'NoneType' object is not iterable
+------------------------------- Captured stdout --------------------------------
+START
+content_handle: 9a16ada054344d59aa5432192a0efc3c
+Words > six letters: 0.17961165
+Numbers: 0.009708738
+Articles: 0.053398058
+Prepositions: 0.09223301
+Positive Feelings: 0.048543688
+Anxiety: 0.004854369
+Swear words: 0.004854369
+Feeling: 0.009708738
+Social words: 0.058252428
+Pronouns: 0.17961165
+1st person singular: 0.048543688
+1st person plural: 0.0
+3rd person singular: 0.0
+3rd person plural: 0.019417476
+Home: 0.0
+END
+!!!!!!!!!!!!!!!!!!! Interrupted: 1 errors during collection !!!!!!!!!!!!!!!!!!!!
+=========================== 1 error in 2.96 seconds ============================
+============================= test session starts ==============================
+platform linux -- Python 3.6.7, pytest-4.5.0, py-1.8.0, pluggy-0.12.0
+rootdir: /home/sgraff/api_recipes-master/tests/python
+collected 0 items / 1 errors
+
+==================================== ERRORS ====================================
+_________________________ ERROR collecting test_api.py _________________________
+test_api.py:73: in <module>
+    fout.writelines(score)
+E   TypeError: 'NoneType' object is not iterable
+------------------------------- Captured stdout --------------------------------
+START
+content_handle: 03338746a6df482a804abd42c9e1c43f
+Words > six letters: 0.17073171
+Numbers: 0.004241782
+Articles: 0.07104984
+Prepositions: 0.13891834
+Positive Feelings: 0.02545069
+Anxiety: 0.012725345
+Swear words: 0.004241782
+Feeling: 0.010604454
+Social words: 0.13679746
+Pronouns: 0.15906681
+1st person singular: 0.0063626724
+1st person plural: 0.0
+3rd person singular: 0.029692471
+3rd person plural: 0.0
+Home: 0.002120891
+END
+!!!!!!!!!!!!!!!!!!! Interrupted: 1 errors during collection !!!!!!!!!!!!!!!!!!!!
+=========================== 1 error in 3.52 seconds ============================
+============================= test session starts ==============================
+platform linux -- Python 3.6.7, pytest-4.5.0, py-1.8.0, pluggy-0.12.0
+rootdir: /home/sgraff/api_recipes-master/tests/python
+collected 0 items / 1 errors
+
+==================================== ERRORS ====================================
+_________________________ ERROR collecting test_api.py _________________________
+test_api.py:73: in <module>
+    fout.writelines(score)
+E   TypeError: 'NoneType' object is not iterable
+------------------------------- Captured stdout --------------------------------
+START
+content_handle: 4893ba691d764a45b5f7156f4c432450
+Words > six letters: 0.14814815
+Numbers: 0.0061728396
+Articles: 0.06790123
+Prepositions: 0.14197531
+Positive Feelings: 0.0061728396
+Anxiety: 0.0
+Swear words: 0.0
+Feeling: 0.0061728396
+Social words: 0.024691358
+Pronouns: 0.18518518
+1st person singular: 0.061728396
+1st person plural: 0.0
+3rd person singular: 0.0
+3rd person plural: 0.0061728396
+Home: 0.0
+END
+!!!!!!!!!!!!!!!!!!! Interrupted: 1 errors during collection !!!!!!!!!!!!!!!!!!!!
+=========================== 1 error in 2.87 seconds ============================
+============================= test session starts ==============================
+platform linux -- Python 3.6.7, pytest-4.5.0, py-1.8.0, pluggy-0.12.0
+rootdir: /home/sgraff/api_recipes-master/tests/python
+collected 0 items / 1 errors
+
+==================================== ERRORS ====================================
+_________________________ ERROR collecting test_api.py _________________________
+test_api.py:73: in <module>
+    fout.writelines(score)
+E   TypeError: 'NoneType' object is not iterable
+------------------------------- Captured stdout --------------------------------
+START
+content_handle: 40609da3352d4280a11c22db009f376d
+Words > six letters: 0.21710527
+Numbers: 0.028508771
+Articles: 0.08991228
+Prepositions: 0.09210526
+Positive Feelings: 0.019736841
+Anxiety: 0.0021929825
+Swear words: 0.0
+Feeling: 0.0021929825
+Social words: 0.098684214
+Pronouns: 0.083333336
+1st person singular: 0.0
+1st person plural: 0.04605263
+3rd person singular: 0.0
+3rd person plural: 0.0
+Home: 0.0
+END
+!!!!!!!!!!!!!!!!!!! Interrupted: 1 errors during collection !!!!!!!!!!!!!!!!!!!!
+=========================== 1 error in 3.02 seconds ============================
+============================= test session starts ==============================
+platform linux -- Python 3.6.7, pytest-4.5.0, py-1.8.0, pluggy-0.12.0
+rootdir: /home/sgraff/api_recipes-master/tests/python
+collected 0 items / 1 errors
+
+==================================== ERRORS ====================================
+_________________________ ERROR collecting test_api.py _________________________
+test_api.py:73: in <module>
+    fout.writelines(score)
+E   TypeError: 'NoneType' object is not iterable
+------------------------------- Captured stdout --------------------------------
+START
+content_handle: e9fb7105ec1f4da7a89a01b0f9af4425
+Words > six letters: 0.18959108
+Numbers: 0.003717472
+Articles: 0.050185874
+Prepositions: 0.10223048
+Positive Feelings: 0.014869888
+Anxiety: 0.0
+Swear words: 0.0
+Feeling: 0.003717472
+Social words: 0.16914499
+Pronouns: 0.21561338
+1st person singular: 0.0669145
+1st person plural: 0.05204461
+3rd person singular: 0.001858736
+3rd person plural: 0.014869888
+Home: 0.0055762082
+END
+!!!!!!!!!!!!!!!!!!! Interrupted: 1 errors during collection !!!!!!!!!!!!!!!!!!!!
+=========================== 1 error in 3.09 seconds ============================
+============================= test session starts ==============================
+platform linux -- Python 3.6.7, pytest-4.5.0, py-1.8.0, pluggy-0.12.0
+rootdir: /home/sgraff/api_recipes-master/tests/python
+collected 0 items / 1 errors
+
+==================================== ERRORS ====================================
+_________________________ ERROR collecting test_api.py _________________________
+test_api.py:73: in <module>
+    fout.writelines(score)
+E   TypeError: 'NoneType' object is not iterable
+------------------------------- Captured stdout --------------------------------
+START
+content_handle: 45857e2e4367468b9231d6d2220f831f
+Words > six letters: 0.1724138
+Numbers: 0.0
+Articles: 0.044334974
+Prepositions: 0.12807882
+Positive Feelings: 0.06896552
+Anxiety: 0.0
+Swear words: 0.0
+Feeling: 0.0049261083
+Social words: 0.06896552
+Pronouns: 0.19211823
+1st person singular: 0.13300492
+1st person plural: 0.0
+3rd person singular: 0.0
+3rd person plural: 0.009852217
+Home: 0.0
+END
+!!!!!!!!!!!!!!!!!!! Interrupted: 1 errors during collection !!!!!!!!!!!!!!!!!!!!
+=========================== 1 error in 3.37 seconds ============================
